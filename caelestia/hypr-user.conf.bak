@@ -1,0 +1,13 @@
+input {
+    kb_layout = latam
+}
+
+device {
+    name = at-translated-set-2-keyboard
+    kb_layout = latam
+}
+
+# Cambiar navegador a Zen
+$browser = /opt/zen/zen-bin
+
+bind = $mainMod, W, exec, $browser
